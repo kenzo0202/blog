@@ -6,6 +6,9 @@ gem "middleman", "~> 3.4.1"
 gem "middleman-blog", "~> 3.5.3"
 gem "bootstrap-sass"
 
+# 自動的にベンダープレフィックス追加してくれる
+gem 'autoprefixer-rails'
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
