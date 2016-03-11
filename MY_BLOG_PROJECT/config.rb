@@ -111,3 +111,11 @@ set :slim,
       "." => {:tag => "div", :attr => "class"},
       "&" => {:tag => "input", :attr => "type"}
     }
+
+activate :bitballoon do |bitballoon|
+  bitballoon.token = 67e4cc09ce31acda4a73fb7d38332ede14ea4240457a8a7d861c94086827e84d
+  bitballoon.site  = "colate.com"
+
+  # Optional: always run a build before deploying
+  bitballoon.build_before = true
+end
