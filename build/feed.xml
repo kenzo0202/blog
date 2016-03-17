@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/01/29/sample.html"/>
     <id>http://blog.url.com/2016/01/29/sample.html</id>
     <published>2016-01-29T09:00:00+09:00</published>
-    <updated>2016-01-29T15:14:12+09:00</updated>
+    <updated>2016-03-17T19:13:54+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -26,11 +26,11 @@
     <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
     <id>http://blog.url.com/2012/01/01/example-article.html</id>
     <published>2012-01-01T09:00:00+09:00</published>
-    <updated>2016-01-29T15:10:10+09:00</updated>
+    <updated>2016-03-17T19:13:54+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!!&lt;/p&gt;
 </content>
   </entry>
 </feed>

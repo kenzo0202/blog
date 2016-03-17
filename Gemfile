@@ -19,3 +19,7 @@ gem "slim"
 gem 'middleman-livereload'
 
 gem 'middleman-bitballoon'
+
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'

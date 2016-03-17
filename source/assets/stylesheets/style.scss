@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+@import "bourbon/bourbon";
+@import "base/base";   /* Bitters needs to be imported before Neat */
+@import "neat/neat";
+
+body {
+  @include background(linear-gradient(red, green) left repeat);
+}
+

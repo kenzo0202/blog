@@ -78,7 +78,7 @@ activate :livereload
 #   end
 # end
 
-set :css_dir, 'assets/css'
+set :css_dir, 'assets/stylesheets'
 
 set :js_dir, 'assets/javascripts'
 
