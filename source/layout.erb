@@ -8,7 +8,15 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
-    
+    <div class="hero">
+	<div class="hero-inner">
+    <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image"></a>
+		<div class="hero-copy">
+			<h1>法とテクノロジーの間で</h1>
+			<p>何がより大切か。仕組みを守ることか、それとも作り出すことか。</p>	
+		</div>
+	</div>
+　　　</div>
     <div id="main" role="main">
       <%= partial "partials/nav" %>
       <%= yield %>
