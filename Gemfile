@@ -23,3 +23,5 @@ gem 'middleman-bitballoon'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+
+gem 'nokogiri'

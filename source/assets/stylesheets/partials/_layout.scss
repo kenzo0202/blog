@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 #main{
-    @include outer-container;
+    @include outer-container(70%);
 }
 
 ol{
@@ -24,12 +24,7 @@ ol{
         }
   }
 
-.large-column{
-    @include span-columns(8 of 12);
-}
-.small-column{
-    @include span-columns(4 of 12);
-}
+
 
 .hero {  
   $base-border-radius: 3px !default;
@@ -87,3 +82,10 @@ ol{
     }
   }
 }
+
+#article{
+    margin: 2em 0;
+    max-width: 600px;
+    float:left
+}
+

@@ -190,6 +190,7 @@ DEPENDENCIES
   middleman-blog (~> 3.5.3)
   middleman-livereload
   neat
+  nokogiri
   slim
 
 BUNDLED WITH
