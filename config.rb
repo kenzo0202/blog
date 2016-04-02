@@ -113,8 +113,8 @@ set :slim,
     }
 
 activate :bitballoon do |bitballoon|
-  bitballoon.token = "a66d625ed1a2b438db22e748f2c53cf3df3c8983d301d0d8e93e7d3ff9f7eb6b"
-  bitballoon.site  = "colate.jp"
+  bitballoon.token = ENV['BB_TOKEN']
+  bitballoon.site  = "plumber-trailers-38053.bitballoon.com"
 
   # Optional: always run a build before deploying
   bitballoon.build_before = true

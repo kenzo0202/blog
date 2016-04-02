@@ -34,8 +34,7 @@ ol{
   $hero-background-bottom: #20392B;
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: 'https:
-//raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+  $hero-image: '../images/header.jpg';
 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
   background-color: #324766;
@@ -85,7 +84,7 @@ ol{
 
 #article{
     margin: 2em 0;
-    max-width: 600px;
+    max-width: 70%;
     float:left
 }
 
