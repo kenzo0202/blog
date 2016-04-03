@@ -4,7 +4,6 @@
       <a href="<%= article.url %>"><%= article.title %></a>
       <time><%= article.date.strftime('%b %e %Y') %></time>
     </h1>
-
     <%= article.summary(50) %>
     <%= link_to 'もっと読む…', article %>
   </article>
