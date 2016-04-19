@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 #main{
-    @include outer-container(70%);
+    @include outer-container(80%);
 }
 
 ol{

@@ -14,12 +14,12 @@
     <link rel="alternate" href="http://blog.url.com/2016/01/29/sample.html"/>
     <id>http://blog.url.com/2016/01/29/sample.html</id>
     <published>2016-01-29T09:00:00+09:00</published>
-    <updated>2016-04-02T18:40:24+09:00</updated>
+    <updated>2016-04-04T00:39:25+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;久しぶりにブログを書きたいと思います。&lt;br /&gt;
-まずはブログを書こうと思った目的から話したいと思います。&lt;br /&gt;
+    <content type="html">&lt;h1 id="br"&gt;久しぶりにブログを書きたいと思います。&lt;br /&gt;&lt;/h1&gt;
+&lt;p&gt;まずはブログを書こうと思った目的から話したいと思います。&lt;br /&gt;
 今回ブログを書こうと思った目的は&lt;br /&gt;
 &lt;b&gt;①新しいテクノロジーの特徴・内容を精査する&lt;/b&gt;&lt;br /&gt;
 ②既存の仕組み・法律を知る&lt;br /&gt;
@@ -35,18 +35,6 @@
 僕はそうした動きを言語化し、一度整理することで、自分の中に落とし込むとともに、それを踏まえて自ら新しい仕組み（ビジネスモデルを含む）や法律を考える必要があるのではないかと感じたため、ブログを書こうと思いました。
 まだまだ未熟な部分もあると思うので、間違っている部分を指摘するとともに、さらなる議論をしたいと考えています。
 それではよろしくお願いします。(まずはビットコインについて述べたいと思います)&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
-    <id>http://blog.url.com/2012/01/01/example-article.html</id>
-    <published>2012-01-01T09:00:00+09:00</published>
-    <updated>2016-03-17T19:13:54+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!!&lt;/p&gt;
 </content>
   </entry>
 </feed>
