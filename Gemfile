@@ -25,3 +25,8 @@ gem 'bourbon'
 gem 'neat'
 
 gem 'nokogiri'
+
+gem 'middleman-google-analytics', '~> 2.1'
+
+
+gem "middleman-s3_sync"

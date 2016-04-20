@@ -119,3 +119,25 @@ activate :bitballoon do |bitballoon|
   # Optional: always run a build before deploying
   bitballoon.build_before = true
 end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-XXXXXXX-X' # Replace with your property ID.
+end
+
+activate :s3_sync do |s3_sync|
+  # デプロイ先のS3バケット名
+  s3_sync.bucket                     = 'colate.jp'
+  # バケットのリージョン
+  s3_sync.region                     = 'ap-northeast-1'
+  # AWSのアクセスキー
+  s3_sync.aws_access_key_id          = ENV['AWS_ACCESS_KEY_ID']
+  # AWSのシークレットアクセスキー
+  s3_sync.aws_secret_access_key      = ENV['AWS_SECRET_ACCESS_KEY']
+  s3_sync.delete                     = false
+  s3_sync.after_build                = false
+  s3_sync.prefer_gzip                = true
+  s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = false
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+end

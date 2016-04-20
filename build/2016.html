@@ -6,17 +6,66 @@
     <link href="/assets/stylesheets/style.css" rel="stylesheet" />
     <title>法とテクノロジーの間で</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/javascripts/header.js"></script>
   </head>
   <body>
+      <header>
     <div class="hero">
 	  <div class="hero-inner">
     <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image"></a>
 		<div class="hero-copy">
             <a class="blog-title" href="/">法とテクノロジーの間で</a>
-			<p>何がより大切か。仕組みを守ることか、それとも作り出すことか。</p>	
+			<p>スタートアップとか、テクノロジーとか、法改正の話とか・・・</p>	
 		</div>
 	  </div>
     </div>
+    
+    
+    <header class="navigation" role="banner">
+      <div class="navigation-wrapper">
+        <a href="javascript:void(0)" class="logo">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
+        </a>
+        <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+        <nav role="navigation">
+          <ul id="js-navigation-menu" class="navigation-menu show">
+            <li class="nav-link"><a href="javascript:void(0)">ポートフォリオ</a></li>
+            <li class="nav-link"><a href="javascript:void(0)">わたしについて</a></li>
+            <li class="nav-link"><a href="javascript:void(0)">お問い合わせ</a></li>
+            <li id="js-navigation-more" class="nav-link more"><a href="javascript:void(0)">More</a>
+              <ul class="submenu">
+                <li><a href="javascript:void(0)">Submenu Item</a></li>
+                <li><a href="javascript:void(0)">Another Item</a></li>
+                <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                    <li><a href="javascript:void(0)">Another Item</a></li>
+                  </ul>
+                </li>
+                <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                    <li><a href="javascript:void(0)">An Item</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="navigation-tools">
+          <div class="search-bar">
+            <form role="search">
+              <input type="search" placeholder="Enter Search" />
+              <button type="submit">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+</header>
+</header>
     <div id="main" role="main">
       <div id="article"><h1>Archive for
     2016
@@ -29,7 +78,22 @@
 
 </div>
       <footer>
-  <ul class="large-column">
+ <div id="intro">
+     <img src="" alt="">
+     <ul>
+         <li><img src="/assets/images/kenzo.jpeg" /></li>
+         <li>KENZO OKANO</li>
+         <li>ken.rad02020@gmail.com</li>
+         <li>
+            <ul id="icons">
+                <li class="icon"><a href="https://www.facebook.com/profile.php?id=100006127564764"><img src="/assets/images/facebook.svg" /></a></li>
+                <li class="icon"><a href="https://twitter.com/OKenzo22?lang=ja"><img src="/assets/images/twitter.svg" /></a></li>
+                <li class="icon"><a href="https://github.com/kenzo0202"><img src="/assets/images/github.svg" /></a></li>
+            </ul>
+         </li>
+     </ul>
+ </div>
+  <ul class="rescent_articles">
     <li><h5 class="heading">最近の投稿</h5></li>
     <li>
       <ol>
@@ -41,7 +105,7 @@
     </li>
   </ul>
 
-  <ul class="small-column">
+  <ul class="tags">
     <li><h5 class="heading">タグ</h5></li>
     <li>
       <ol>
