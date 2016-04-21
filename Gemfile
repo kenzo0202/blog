@@ -30,3 +30,4 @@ gem 'middleman-google-analytics', '~> 2.1'
 
 
 gem "middleman-s3_sync"
+gem "middleman-disqus" 

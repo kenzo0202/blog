@@ -7,7 +7,7 @@
     <title>法とテクノロジーの間で - テクノロジーと法律の狭間で</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/javascripts/header.js"></script>
+    <script src="./assets/javascripts/header.js"></script>
   </head>
   <body>
       <header>
@@ -67,7 +67,8 @@
 </header>
 </header>
     <div id="main" role="main">
-      <div id="article"><h1 id="br">久しぶりにブログを書きたいと思います。<br /></h1>
+      <div id="article">  <!-- Blog記事本文 -->
+  <h1 id="br">久しぶりにブログを書きたいと思います。<br /></h1>
 <p>まずはブログを書こうと思った目的から話したいと思います。<br />
 今回ブログを書こうと思った目的は<br />
 <b>①新しいテクノロジーの特徴・内容を精査する</b><br />
@@ -84,6 +85,22 @@
 僕はそうした動きを言語化し、一度整理することで、自分の中に落とし込むとともに、それを踏まえて自ら新しい仕組み（ビジネスモデルを含む）や法律を考える必要があるのではないかと感じたため、ブログを書こうと思いました。
 まだまだ未熟な部分もあると思うので、間違っている部分を指摘するとともに、さらなる議論をしたいと考えています。
 それではよろしくお願いします。(まずはビットコインについて述べたいと思います)</p>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+//<![CDATA[
+                  var disqus_shortname = 'law-tech';
+          
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+//]]>
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
 </div>
       <footer>
  <div id="intro">
@@ -123,15 +140,16 @@
 
 </footer>
     </div>
+
       <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-76678361-1', 'auto');
-  ga('send', 'pageview');
+          ga('create', 'UA-76678361-1', 'auto');
+          ga('send', 'pageview');
 
-</script>
+      </script>
   </body>
 </html>

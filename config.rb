@@ -12,14 +12,13 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "articles/{year}/{month}/{day}/{title}/index.html"
   blog.taglink = "tags/{tag}.html"
-  blog.layout = "layout"
+  blog.layout = "blog_layout"
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 250
   blog.year_link = "{year}.html"
   blog.month_link = "{year}/{month}.html"
   blog.day_link = "{year}/{month}/{day}.html"
   blog.default_extension = ".markdown"
-
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
@@ -29,7 +28,10 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-page "/feed.xml", layout: false
+#page "/feed.xml", layout: false
+#page "/articles/*" , layout: "blog_layout"
+
+
 
 ###
 # Compass
@@ -140,4 +142,8 @@ activate :s3_sync do |s3_sync|
   s3_sync.reduced_redundancy_storage = false
   s3_sync.acl                        = 'public-read'
   s3_sync.encryption                 = false
+end
+
+activate :disqus do |d|
+    d.shortname = "law-tech"
 end
